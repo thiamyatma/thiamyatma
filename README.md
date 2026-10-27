@@ -2,13 +2,13 @@
 <p align="center">
   <img
     src="assets/banner.gif"
-    alt="Yatma — Cybersecurity, Networks and Development"
+    alt="Yatus — Cybersecurity, Networks and Development"
     width="100%"
   />
 </p>
 
 
-# `> yatma.init()`
+# `> yatus.init()`
 ### Computer Engineering Student • Cybersecurity, Networks & Linux • Software Engineering
 
 [![Location](https://img.shields.io/badge/Base-Senegal-0d1117?style=flat-square&logo=google-maps&logoColor=00f2fe)](https://github.com/thiamyatma)
