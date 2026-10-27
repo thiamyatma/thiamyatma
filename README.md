@@ -1,6 +1,12 @@
-<div align="center">
 
-<img src="./assets/banner.svg" alt="Yatma - Cyberpunk Profile Banner" width="100%" />
+<p align="center">
+  <img
+    src="assets/banner.gif"
+    alt="Yatma — Cybersecurity, Networks and Development"
+    width="100%"
+  />
+</p>
+
 
 # `> yatma.init()`
 ### Computer Engineering Student • Cybersecurity, Networks & Linux • Software Engineering
