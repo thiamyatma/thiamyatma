@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="100%" style="background:#090d16;border-radius:10px;font-family:'JetBrains Mono','Fira Code','Courier New',monospace;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#00ffcc"/>
+      <stop offset="100%" stop-color="#00ff66"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b101b"/>
+      <stop offset="100%" stop-color="#070a10"/>
+    </linearGradient>
+
+    <!-- Cyber Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00f2fe" stroke-width="0.5" stroke-opacity="0.08"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bgGrad)" rx="10"/>
+  <rect width="900" height="220" fill="url(#grid)" rx="10"/>
+
+  <!-- Outer Cyber Border -->
+  <rect x="1" y="1" width="898" height="218" rx="9" fill="none" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Tech Corner Markers -->
+  <path d="M 15 30 L 15 15 L 30 15" fill="none" stroke="#00f2fe" stroke-width="2"/>
+  <path d="M 870 15 L 885 15 L 885 30" fill="none" stroke="#00f2fe" stroke-width="2"/>
+  <path d="M 15 190 L 15 205 L 30 205" fill="none" stroke="#00ff66" stroke-width="2"/>
+  <path d="M 870 205 L 885 205 L 885 190" fill="none" stroke="#00ff66" stroke-width="2"/>
+
+  <!-- Terminal Top Bar -->
+  <line x1="20" y1="42" x2="880" y2="42" stroke="#1f293d" stroke-width="1"/>
+  <circle cx="36" cy="27" r="4.5" fill="#ff5f56"/>
+  <circle cx="52" cy="27" r="4.5" fill="#ffbd2e"/>
+  <circle cx="68" cy="27" r="4.5" fill="#27c93f"/>
+
+  <!-- Prompt status -->
+  <text x="88" y="31" fill="#64748b" font-size="11" letter-spacing="1">guest@senegal-node:~# sysctl -p /dev/identity</text>
+  <text x="760" y="31" fill="#00ff66" font-size="11" font-weight="bold" letter-spacing="1">[STATUS: ONLINE]</text>
+
+  <!-- Main Cyber Moniker -->
+  <text x="450" y="108" text-anchor="middle" font-size="44" font-weight="900" fill="url(#cyberGrad)" letter-spacing="6" filter="url(#cyanGlow)">YATMA</text>
+
+  <!-- Professional Subtitle -->
+  <text x="450" y="145" text-anchor="middle" font-size="13" font-weight="600" fill="#94a3b8" letter-spacing="3.5">
+    COMPUTER ENGINEERING &#8226; CYBERSECURITY &#8226; LINUX SYSTEMS &#8226; NETWORKS
+  </text>
+
+  <!-- Cyber Badge / Motto -->
+  <g transform="translate(450, 182)">
+    <rect x="-135" y="-14" width="270" height="26" rx="13" fill="#0f172a" stroke="#00ff66" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="-115" cy="-1" r="3" fill="#00ff66"/>
+    <text x="0" y="3" text-anchor="middle" font-size="11" font-weight="700" fill="#00ff66" letter-spacing="2.5">LEARN . BUILD . SECURE</text>
+    <circle cx="115" cy="-1" r="3" fill="#00ff66"/>
+  </g>
+</svg>
